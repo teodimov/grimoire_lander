@@ -1,0 +1,27 @@
+{
+  "name": "grimoire_lander",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teodimov/grimoire_lander.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teodimov/grimoire_lander/issues"
+  },
+  "homepage": "https://github.com/teodimov/grimoire_lander#readme",
+  "description": "",
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
