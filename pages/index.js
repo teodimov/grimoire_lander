@@ -1,27 +1,40 @@
 // pages/index.js
 export default function Home() {
   return (
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "black",
-      }}
-    >
-      <a
-        href="/blank.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
+    <>
+      <style jsx global>{`
+        body {
+          margin: 0;
+          padding: 0;
+        }
+      `}</style>
+      <div
         style={{
-          color: "white",
-          fontSize: "24px",
-          textDecoration: "none",
+          height: "100vh",
+          margin: 0,
+          padding: 0,
+          overflow: "hidden",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "black",
+          position: "relative",
         }}
       >
-        Open PDF
-      </a>
-    </div>
+        <a
+          href="/blank.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "white",
+            fontSize: "20px",
+            textDecoration: "underline",
+            //fontFamily: "Cursive, fantasy",
+          }}
+        >
+          See the Magic
+        </a>
+      </div>
+    </>
   );
 }
