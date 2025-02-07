@@ -11,7 +11,7 @@ export default function Home() {
       }}
     >
       <a
-        href="/blank.pdf"
+        href="/public/blank.pdf"
         target="_blank"
         rel="noopener noreferrer"
         style={{
