@@ -18,11 +18,12 @@
     "url": "https://github.com/teodimov/grimoire_lander/issues"
   },
   "homepage": "https://github.com/teodimov/grimoire_lander#readme",
-  "description": "",
   "dependencies": {
     "animejs": "^3.2.2",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
