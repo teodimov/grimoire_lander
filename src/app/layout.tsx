@@ -19,8 +19,40 @@ const consolas = localFont({
 });
 
 export const metadata: Metadata = {
-	title: "ML Grimoire",
-	description: "",
+	metadataBase: new URL("https://mlgrimoire.com"),
+	title: "The ML Grimoire",
+	description: "Foundations of AI: From First Principles to Practica",
+	openGraph: {
+		type: "website",
+		title: {
+			default: "The ML Grimoire",
+			template: "%s | The ML Grimoire",
+		},
+		description:
+			"A comprehensive and concise primer on Artificial Intelligence for everyone",
+		siteName: "The ML Grimoire",
+		images: [
+			{
+				url: new URL("/og.png", "https://mlgrimoire.com").toString(),
+				width: 1200,
+				height: 630,
+				alt: "ML Grimoire",
+			},
+		],
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "The ML Grimoire",
+		description: "Foundations of AI: From First Principles to Practica",
+		images: [
+			{
+				url: new URL("/og.png", "https://mlgrimoire.com").toString(),
+				width: 1200,
+				height: 630,
+				alt: "The ML Grimoire",
+			},
+		],
+	},
 };
 
 export default function RootLayout({
