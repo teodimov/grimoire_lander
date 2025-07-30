@@ -11,9 +11,9 @@ export default function Home() {
 					</li>
 					<li>A comprehensive and concise primer on Artificial Intelligence</li>
 					<li>
-						AI research should be accessible to everyone. This "Grimoire"
-						provides essential foundations for anyone looking to join AI careers
-						or conversations.
+						AI research should be accessible to all. This "Grimoire" provides
+						essential foundations for anyone looking to join AI careers or
+						conversations.
 					</li>
 					<li>
 						<a
